@@ -21,6 +21,13 @@ gem 'spring',        group: :development
 gem "activeadmin", github: "gregbell/active_admin" # Until it's 1.0.0
 gem "devise"
 
+# API time
+gem "active_model_serializers"
+gem "grape"
+gem "grape-active_model_serializers"
+gem "grape-swagger-rails"
+gem "rack-cors", require: "rack/cors"
+
 group :development do
   gem "better_errors"
   gem "meta_request"
